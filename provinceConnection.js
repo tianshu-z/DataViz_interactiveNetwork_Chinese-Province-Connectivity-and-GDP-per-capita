@@ -15,7 +15,7 @@ var tooltip = d3.select('body')
     .style({
         'background' : 'orange',
         'color':'white',
-        'width':"120px",
+        'width':"160px",
         'opacity': 0.3,
     });
 
@@ -84,7 +84,9 @@ var node = d3.select('#flags')
   //the tooltip with the name of the country is going to show up
   function mouseoverHandler (d) {
      tooltip.transition().style('opacity', 0.75)
-     tooltip.html('<p>' + d["Province Name"] + " | GDP per capital (RMB) " + d["aGDP"] + '</p>' );
+     tooltip.html('<p>' + d["Province Name"] + "<br>" + "GDP per capital " + d["aGDP"] + "RMB" 
+              + "<br>" + d["Population(万人)"] + "万人" 
+              + "<br>" + d["Size(万平方千米)"] + "万平方千米" + '</p>' );
   }
 
   //leaving a flag
