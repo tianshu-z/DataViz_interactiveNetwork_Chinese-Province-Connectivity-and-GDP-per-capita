@@ -19,8 +19,7 @@ var tooltip = d3.select('body')
         'opacity': 0.3,
     });
 
-//d3.json("https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json",function(data){ 
-d3.json("https://raw.githubusercontent.com/tianshu-z/tianshu-z.github.io/master/data/provinceConnections.json", function(data){ 
+d3.json("https://raw.githubusercontent.com/tianshu-z/DataViz_interactiveNetwork_Chinese-Province-Connectivity-and-GDP-per-capita/master/data/provinceConnections.json", function(data){ 
   
 // Extract the nodes and links from the data.
 var nodes = data["nodes"];
