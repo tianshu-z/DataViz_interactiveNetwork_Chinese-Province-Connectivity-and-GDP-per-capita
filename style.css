@@ -33,7 +33,7 @@ h1, h3, p {
 	width: 30px;
 	height: 30px;
   	position: absolute;
-	background: url(https://raw.githubusercontent.com/tianshu-z/tianshu-z.github.io/master/data/provinceShort-01.png) no-repeat;
+	background: url(https://raw.githubusercontent.com/tianshu-z/DataViz_interactiveNetwork_Chinese-Province-Connectivity-and-GDP-per-capita/master/data/provinceShort-01.png) no-repeat;
 }
 
 .flag.flag-hb {background-position: 0 0}
